@@ -77,6 +77,7 @@
 (defvar prisma-mode--auto-mode-entry (prisma-mode--update-auto-mode)
   "Regexp generated from the `prisma-mode-auto-mode-list'.")
 
+;;;###autoload
 (define-derived-mode prisma-mode prog-mode "Prisma"
   "Major mode for editing Prisma files."
   :syntax-table prisma-mode-syntax-table
